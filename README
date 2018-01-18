@@ -1,0 +1,19 @@
+README
+Author: Brian Berg 
+SKIP DAYS USED: 5 
+
+What mechanisms would you use to detect your virus?
+	An effective measure to detect this virus would be to either run a checksome over a verified sourcecode which you could find online through a company. Also if I wanted to detect it having had written it I would often check binaries for deadbeef. 
+
+Does the virus leave any traces on the file system?
+	My virus does not leave any traces on the file system. All temporary files used are removed by the end of the execution in program. ( Possibly in log files ).
+
+How could you make the virus more difficult to detect?
+	I would make it more difficult to detect by possibly erasing log files as well as minimizing the amount of memory I use in temporary files (makeing the virus more effecient). 
+
+Host Program:
+	Prompts user to enter one number press enter, then enter a number. Printed out will be the addition of the two. 
+
+Virus Program:
+	The program will look for a hex value deadbeef after which it will copy the binary to a temp file to execute. Once this is complete it will take the virus source recompile to morph it then attach that binary to the front of the target file. The structure roughly being virus | xdeadbeef | victim | beefdead | virus.c
+
