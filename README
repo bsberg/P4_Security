@@ -1,6 +1,5 @@
 README
 Author: Brian Berg 
-SKIP DAYS USED: 5 
 
 What mechanisms would you use to detect your virus?
 	An effective measure to detect this virus would be to either run a checksome over a verified sourcecode which you could find online through a company. Also if I wanted to detect it having had written it I would often check binaries for deadbeef. 
